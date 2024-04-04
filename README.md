@@ -10,7 +10,7 @@ The Flickr8K dataset is a collection of 8,000 high-quality images sourced from t
 
 **KEY FEATURES:**
 
-*Image Feature Extraction:* Utilizes a pre-trained convolutional neural network (VGG16) to extract high-level features from input images. These features serve as input to the captioning model.
+*Image Feature Extraction:* Utilizes a pre-trained convolutional neural network (VGG16) to extract high-level features from input images. These features serve as input to the captioning model.<br>
 *Text Preprocessing:* Cleans and preprocesses text data by converting captions to lowercase, removing special characters, and adding start and end tags to indicate the beginning and end of sentences.
 *Sequence Modeling:* Employs a sequence-to-sequence model architecture comprising an encoder and a decoder. The encoder processes image features, while the decoder generates captions word by word.
 *Model Training:* Trains the model using a combination of image features and corresponding captions. The training process involves optimizing the model parameters to minimize the cross-entropy loss.
